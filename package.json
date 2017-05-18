@@ -1,0 +1,22 @@
+{
+  "name": "empdir",
+  "version": "1.0.0",
+  "description": "Employee Directory",
+  "main": "server.js",
+  "repository": "https://github.com/anbercin/empdir.git",
+  "author": "anbercin <bercinbey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-jwt": "^5.3.0",
+    "helmet": "^3.6.0",
+    "path": "^0.12.7",
+    "pg": "^6.2.2"
+  }
+}
